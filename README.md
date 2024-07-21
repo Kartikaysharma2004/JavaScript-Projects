@@ -50,7 +50,7 @@ cd js-projects-repo
 I'm a Passionate Frontend Developer with a flair for transforming creative visions into interactive and user-centric digital experiences.
 
 ## License 📄
-This project is licensed under the MIT License - see the [License.md](https://github.com/Kartikaysharma2004/JavaScript-Projects/blob/main/LICENSE)
+This project is licensed under the MIT License - see the [License.md](https://github.com/Kartikaysharma2004/JavaScript-Projects/blob/main/LICENSE.md)
 
 ## Contact
 If you have any questions or feedback, please reach out to me at kartikaysharmaa2004@gmail.com
