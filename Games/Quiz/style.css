@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-top: -10px;
+}
+#question {
+  margin-top: 5px;
+  font-size: 17px;
+}
+.container {
+  background-color: white;
+  padding: 22px;
+  height: auto;
+  width: 60vmin;
+  margin-top: 87px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+hr {
+  width: 60vmin;
+  color: white;
+  margin-top: 15px;
+}
+.options button {
+  height: auto;
+  display: table;
+  border-radius: 4px;
+  width: 60vmin;
+  border: 2px solid black;
+  padding: 6px;
+  cursor: pointer;
+  background-color: #f0f8ff;
+  margin-top: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: start;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+}
+.button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 23px;
+  height: 33px;
+  color: white;
+  width: 102px;
+  font-size: 17px;
+  float: right;
+  margin-top: 13px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.count{
+    margin-top: 20px;
+}
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.button1 a {
+  text-decoration: none;
+  color: white;
+}
+.button1 button {
+  background-color: black;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+}
+@media (max-width: 600px) {
+  .container {
+    height: auto;
+  }
+}

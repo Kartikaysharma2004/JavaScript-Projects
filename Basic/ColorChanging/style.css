@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    background-color: black;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border-radius: 65px;
+  padding: 10px 14px;
+  margin-top: 228px;
+  font-size: 14px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  letter-spacing: 2px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

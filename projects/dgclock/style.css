@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 40px solid #272e3a;
+  margin-top: 180px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.time {
+  font-size: 74px;
+  background-color: #0f161f;
+  color: white;
+  border: 26px solid #0f161f;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 8vw;
+    margin-top: 248px;
+  border: 6px solid #272e3a;
+  }
+  .time {
+    font-size: 6vw;
+  }
+}
