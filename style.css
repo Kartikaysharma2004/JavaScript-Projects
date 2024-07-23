@@ -1,0 +1,515 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 5px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: rgba(245, 158, 11);
+}
+html::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(9, 85, 164, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  padding: 20px;
+  width: 100%;
+  background: black;
+  color: rgba(245, 158, 11);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 0.8rem 7%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: #e8d44d;
+  transition: 0.2s;
+}
+
+nav button {
+  background-color: rgba(245, 158, 11);
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 100;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.menu {
+  float: right;
+  margin-right: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 5px;
+}
+li a {
+  color: rgba(245, 158, 11);
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  line-height: 10px;
+  text-decoration: none;
+}
+a.active,
+a:hover {
+  background-color: rgba(245, 158, 11);
+  transition: 0.5s;
+  color: black;
+  border-radius: 9px;
+}
+.checkbtn,
+.uncheckbtn {
+  font-size: 23px;
+  float: right;
+  cursor: pointer;
+  position: relative;
+  display: none;
+}
+#check,
+#uncheck {
+  display: none;
+}
+
+main {
+  position: relative;
+  text-align: center;
+  margin-top: 150px;
+  padding-bottom: 200px;
+}
+
+main img {
+  position: absolute;
+  bottom: -19vw;
+  left: 22.6%;
+  height: 30vw;
+  transform: translateX(-50%);
+  animation: float 4s linear infinite;
+  filter: drop-shadow(rgba(255, 254, 254, 0.24) 0px 3px 8px);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(3rem);
+  }
+}
+
+.heading {
+  font-size: 4vw;
+  color: rgba(245, 158, 11);
+  text-transform: capitalize;
+}
+.heading b,
+.basicprojects b,
+.gameprojects b {
+  color: #e8d44d;
+  /* text-shadow: rgb(245, 158, 11) 0px 0px 9px; */
+}
+.start {
+  border: 10px solid rgba(245, 158, 11);
+  border-radius: 36px;
+  background-color: rgba(245, 158, 11);
+  cursor: pointer;
+  padding: 3px 4px;
+  top: 4vw;
+  position: relative;
+  width: 16vw;
+  font-size: 1.5vw;
+  box-shadow: rgba(245, 158, 11) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.start i {
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: black;
+  color: rgba(245, 158, 11);
+  margin-left: 0.3rem;
+  font-size: 1vw;
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.start:hover i {
+  transform: translateX(5px);
+  transition: transform 0.5s;
+}
+.start a {
+  text-decoration: none;
+  color: black;
+}
+.projects {
+  background: rgb(246, 160, 11);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 160, 11, 1) 100%,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: relative;
+  top: 298px;
+  height: auto;
+  text-align: center;
+}
+
+.projects .first {
+  font-size: 3vw;
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding-top: 10px;
+}
+.projects .first b {
+  color: #3e049b;
+}
+.basicprojects {
+  background-color: #3e049b;
+  position: relative;
+  top: 298px;
+  height: auto;
+  text-align: center;
+}
+
+.basicprojects .first,
+.gameprojects .first {
+  font-size: 2.6vw;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding-top: 10px;
+}
+.gameprojects {
+  background: rgb(3, 55, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(3, 55, 255, 1) 100%,
+    rgba(246, 160, 11, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: relative;
+  top: 298px;
+  height: auto;
+  text-align: center;
+}
+
+.background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 80px 32px 116px 32px;
+  height: auto;
+}
+.basicprojects .background,
+.gameprojects .background {
+  padding: 80px 32px 116px 32px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1200px;
+  gap: 49px;
+  
+}
+
+.articles article {
+  max-width: 320px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  border-radius: 16px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.articles article h2 {
+  margin: 0 0 18px 0;
+  font-size: 1.6rem;
+  color: black;
+  transition: color 0.3s ease-out;
+}
+
+.articles article img {
+  max-width: 100%;
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.article-preview {
+  padding: 24px;
+  background: rgb(255, 255, 255);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-preview .button-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 12px;
+}
+
+.article-preview .button-container a,
+.footer-container p a {
+  text-decoration: none;
+}
+
+.article-preview button {
+  background-color: rgba(245, 158, 11);
+  border: 10px solid rgba(245, 158, 11);
+  border-radius: 7px;
+  color: white;
+  width: 90px;
+  height: 45px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+.basicprojects .article-preview button,
+.gameprojects .article-preview button {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+}
+.basicprojects .article-preview button:hover {
+  background-color: #3e049b;
+  color: white;
+  transition: 0.3s;
+}
+.gameprojects .article-preview button:hover {
+  background-color: #192547;
+  color: white;
+  transition: 0.3s;
+}
+
+.articles figure {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.articles figure img {
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.articles article:hover img {
+  transform: scale(1.5);
+}
+
+.footer {
+  font-family: "Nunito", sans-serif;
+  background-color: #08142c;
+  color: rgb(209, 203, 203);
+  position: relative;
+  top: 298px;
+  height: 100px;
+  padding: 45px 0;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-container h4 {
+  margin: 0;
+}
+.footer-container h4 i{
+  color: red;
+  font-size: 15px;
+  filter: drop-shadow(0px 7px 29px red);
+  animation: pulse 1.5s infinite ease-in-out ;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1) rotate(-45deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(45deg);
+  }
+  100% {
+    transform: scale(1) rotate(-45deg);
+  }
+}
+
+.footer-container .social-links ul {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-container i {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.footer-container .social-links a {
+  color: rgb(209, 203, 203);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.footer-container .social-links i:hover{
+  color: white;
+}
+
+@media (max-width: 858px) {
+  .checkbtn,
+  .uncheckbtn {
+    display: block;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  .heading {
+    font-size: 28px;
+    margin: 0 4px;
+  }
+  .menu {
+    position: fixed;
+    width: 32%;
+    height: 100vh;
+    background: black;
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    /* transition: left 0.3s ease-in-out; */
+    z-index: 999;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+  }
+  .menu.hide {
+    transform: translateX(-100%);
+  }
+  .menu li {
+    display: block;
+    line-height: 74px;
+  }
+  nav ul li a {
+    color: rgba(245, 158, 11);
+    position: relative;
+    top: 39px;
+  }
+  a:hover,
+  a.active {
+    background-color: rgba(245, 158, 11);
+  }
+  #menu-toggle:checked ~ .menu {
+    left: 0;
+  }
+  main img {
+    bottom: -30vw;
+    left: 3.6%;
+    height: 50vw;
+  }
+  .start {
+    width: 180px;
+    font-size: 13px;
+    padding: 0px;
+    top: 22px;
+  }
+  .start i {
+    font-size: 9px;
+  }
+  .projects {
+    top: 317px;
+  }
+  .basicprojects {
+    top: 317px;
+  }
+  .gameprojects {
+    top: 317px;
+  }
+  .projects .first,
+  .basicprojects .first,
+  .gameprojects .first {
+    font-size: 25px;
+    margin: 0 4px;
+  }
+  .footer-container {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container h4 {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: -37px;
+    padding: 14px 0;
+  }
+
+  .footer-container .social-links ul {
+    margin: 6px;
+  }
+
+  .footer-container .social-links i {
+    font-size: 3.6vw;
+  }
+}
+
+@media (max-width: 952px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+}
