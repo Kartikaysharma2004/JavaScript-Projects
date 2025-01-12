@@ -23,15 +23,14 @@ A task management tool where users can add, delete, and mark tasks as completed.
 
 ## Tech Stack 🛠️
 
-  <a href="https://html.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  </a>
-  <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  </a>
+<a href="https://html.com/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /></a>
+<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
-  </a>
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" /></a>
+<img src="https://img.shields.io/badge/lenis-%230077B5.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgcj0iMzIiIGZpbGw9IiMwMDFBNUIiIC8+Cjx0ZXh0IHg9IjIwIiB5PSIzNyIgZmlsbD0id2hpdGUiIGZvbnQtc2l6ZT0iMTEiIGZvbnQtZmFtaWx5PSJBcmlhbCI+TGVuaXM8L3RleHQ+Cjwvc3ZnPgo=" alt="Lenis" />
+  
 
 
 ## How to Use
