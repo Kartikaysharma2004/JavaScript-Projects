@@ -53,3 +53,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+// Initialize Lenis
+const lenis = new Lenis({
+  autoRaf: true,
+});
