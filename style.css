@@ -387,7 +387,7 @@ main .img {
 
 .footer-container .social-links ul {
   display: flex;
-  gap: 12px;
+  gap: 20px;
 }
 
 .footer-container i {
