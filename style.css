@@ -195,6 +195,7 @@ nav button {
   .hero {
     grid-template-columns: 1fr;
     text-align: center;
+    min-height: 100vh;
   }
 
   .buttons {
