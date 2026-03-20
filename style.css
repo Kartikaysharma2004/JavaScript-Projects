@@ -579,24 +579,14 @@ a:hover {
   .start i {
     font-size: 9px;
   }
-  .projects {
-    top: 317px;
-  }
-  .basicprojects {
-    top: 317px;
-  }
-  .gameprojects {
-    top: 317px;
-  }
+
   .projects .first,
   .basicprojects .first,
   .gameprojects .first {
     font-size: 25px;
     margin: 0 4px;
   }
-  .footer {
-    top: 300px;
-  }}
+}
 
 @media (max-width: 600px) {
   .footer-container h4 {
