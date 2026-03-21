@@ -22,12 +22,6 @@ html::-webkit-scrollbar-track {
 
 body {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 100%,
-    rgba(9, 85, 164, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
   font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
@@ -41,8 +35,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  top: 0;
-  left: 0;
   z-index: 1000;
   padding: 0.8rem 7%;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -57,17 +49,6 @@ h1 {
 h1:hover {
   color: #e8d44d;
   transition: 0.2s;
-}
-
-nav button {
-  background-color: rgba(245, 158, 11);
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  cursor: pointer;
-  font-weight: 100;
-  padding: 10px;
-  margin: 0 10px;
 }
 
 .hero {
@@ -263,40 +244,8 @@ a:hover {
 .basicprojects b,
 .gameprojects b {
   color: #e8d44d;
-  /* text-shadow: rgb(245, 158, 11) 0px 0px 9px; */
 }
-.start {
-  border: 10px solid rgba(245, 158, 11);
-  border-radius: 36px;
-  background-color: rgba(245, 158, 11);
-  cursor: pointer;
-  padding: 3px 4px;
-  top: 4vw;
-  position: relative;
-  width: 16vw;
-  font-size: 1.5vw;
-  box-shadow:
-    rgba(245, 158, 11) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-.start i {
-  border: 5px solid black;
-  border-radius: 50%;
-  background-color: black;
-  color: rgba(245, 158, 11);
-  margin-left: 0.3rem;
-  font-size: 1vw;
-  transition: 0.3s;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-.start:hover i {
-  transform: translateX(5px);
-  transition: transform 0.5s;
-}
-.start a {
-  text-decoration: none;
-  color: black;
-}
+
 .projects {
   background: rgb(246, 160, 11);
   background: linear-gradient(
@@ -353,12 +302,10 @@ a:hover {
 }
 
 .background {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: start;
   padding: 80px 32px 116px 32px;
-  height: auto;
 }
 .basicprojects .background,
 .gameprojects .background {
@@ -401,7 +348,7 @@ a:hover {
 }
 
 .article-preview {
-  padding: 24px;
+  padding: 24px 24px 35px 24px;
   background: rgb(255, 255, 255);
   flex-grow: 1;
   display: flex;
@@ -571,16 +518,6 @@ a:hover {
   }
   #menu-toggle:checked ~ .menu {
     left: 0;
-  }
-
-  .start {
-    width: 180px;
-    font-size: 13px;
-    padding: 0px;
-    top: 22px;
-  }
-  .start i {
-    font-size: 9px;
   }
 
   .projects .first,
