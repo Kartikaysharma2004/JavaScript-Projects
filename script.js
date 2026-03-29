@@ -159,6 +159,62 @@ const projects = [
   }
 ];
 
+const basicProjects = [
+  {
+    id: 1,
+    img: "images/colorchanger.JPG",
+    name: "Color Changer",
+    description: "This is a simple color changer that allows the user to change the background color of the page",
+    livelink: "https://colorcycle.netlify.app/",
+    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Basic/ColorChanging"
+  },
+  {
+    id: 2,
+    img: "images/count.JPG",
+    name: "Count",
+    description: "This is a simple counter that allows the user to count up and down",
+    livelink: "https://countpro.netlify.app/",
+    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Basic/count"
+  },
+  {
+    id: 3,
+    img: "images/emoji.JPG",
+    name: "Emoji Flicker",
+    description: "This is a simple emoji flicker that allows the user to flicker between different emojis",
+    livelink: "https://emojiflicker.netlify.app/",
+    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Basic/emoji"
+  }
+];
+
+const gameProjects = [
+  {
+    id: 1,
+    img: "images/Quiz.JPG",
+    name: "Quiz Game",
+    description: "This is a simple quiz game that allows the user to answer questions and get a score",
+    livelink: "https://quizplanet.netlify.app/",
+    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Games/Quiz"
+  },
+  {
+    id: 2,
+    img: "images/RPS.JPG",
+    name: "Rock Paper Scissor",
+    description: "This is a simple rock paper scissor game that allows the user to play against the computer",
+    livelink: "https://rpschamp.netlify.app/",
+    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Games/Rock%20Paper%20Scissor"
+  },
+  {
+    id: 3,
+    img: "images/tictactoe.JPG",
+    name: "Tic Tac Toe",
+    description: "This is a simple tic tac toe game that allows the user to play with their friends",
+    livelink: "https://tictactoechampions.netlify.app/",
+    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Games/Tic%20Tac%20Toe"
+  }
+];
+
+// Projects
+
 const container = document.getElementById("projects-container");
 
 projects.forEach(project => {
@@ -190,33 +246,7 @@ projects.forEach(project => {
 
 });
 
-
-const basicProjects = [
-  {
-    id: 1,
-    img: "images/colorchanger.JPG",
-    name: "Color Changer",
-    description: "This is a simple color changer that allows the user to change the background color of the page",
-    livelink: "https://colorcycle.netlify.app/",
-    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Basic/ColorChanging"
-  },
-  {
-    id: 2,
-    img: "images/count.JPG",
-    name: "Count",
-    description: "This is a simple counter that allows the user to count up and down",
-    livelink: "https://countpro.netlify.app/",
-    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Basic/count"
-  },
-  {
-    id: 3,
-    img: "images/emoji.JPG",
-    name: "Emoji Flicker",
-    description: "This is a simple emoji flicker that allows the user to flicker between different emojis",
-    livelink: "https://emojiflicker.netlify.app/",
-    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Basic/emoji"
-  }
-];
+// Basic Projects
 
 const sc = document.getElementById("basicprojects-container");
 
@@ -249,34 +279,7 @@ basicProjects.forEach(project => {
 
 });
 
-
-const gameProjects = [
-  {
-    id: 1,
-    img: "images/Quiz.JPG",
-    name: "Quiz Game",
-    description: "This is a simple quiz game that allows the user to answer questions and get a score",
-    livelink: "https://quizplanet.netlify.app/",
-    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Games/Quiz"
-  },
-  {
-    id: 2,
-    img: "images/RPS.JPG",
-    name: "Rock Paper Scissor",
-    description: "This is a simple rock paper scissor game that allows the user to play against the computer",
-    livelink: "https://rpschamp.netlify.app/",
-    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Games/Rock%20Paper%20Scissor"
-  },
-  {
-    id: 3,
-    img: "images/tictactoe.JPG",
-    name: "Tic Tac Toe",
-    description: "This is a simple tic tac toe game that allows the user to play with their friends",
-    livelink: "https://tictactoechampions.netlify.app/",
-    codelink: "https://github.com/Kartikaysharma2004/JavaScript-Projects/tree/main/Games/Tic%20Tac%20Toe"
-  }
-];
-
+// Game Projects
 
 const gc = document.getElementById("gameprojects-container");
 
